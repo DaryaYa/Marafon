@@ -1,0 +1,179 @@
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+    
+    body {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header {
+        background-color: #fff;
+        border-top: 1px solid blue;
+    }
+    
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 88px;
+    }
+    
+    .menu__list {
+        display: flex;
+    }
+    
+    .menu__list li {
+        padding-left: 38px;
+    }
+    
+    .menu__list a {
+        font-size: 14px;
+        color: #2f3f54;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .top {
+        background-color: #3882e5;
+        padding-top: 150px;
+        padding-bottom: 180px;
+    }
+    
+    .top__inner {
+        display: flex;
+    }
+    
+    .top-info {
+        max-width: 555px;
+        margin-right: 35px;
+        color: white;
+    }
+    
+    .top-info__title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 52px;
+        text-transform: uppercase;
+    }
+    
+    .top-info__descr {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 52px;
+        margin-bottom: 35px;
+    }
+    
+    .top-info__descr span {
+        font-size: 14px;
+        line-height: 28px;
+        display: block;
+        font-weight: 400;
+    }
+    
+    .top-info__list {
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    
+    .top-info__list li {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 3px;
+        position: relative;
+    }
+    
+    .top-info__list li img {
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top: 7px;
+        left: 3px;
+    }
+    
+    .top-info__list li::before {
+        content: "";
+        background-image: url(../images/ballot_box_with_check.png);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: -25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .top-info__btn {
+        border: 5px solid white;
+        border-radius: 35px;
+        padding: 10px 40px;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .top-info__btn-descr {
+        display: inline-block;
+        margin-top: 50px;
+    }
+    
+    .top-images {}
+    
+    .top-images__box {
+        position: relative;
+    }
+    
+    .top-images__circle {
+        position: absolute;
+        top: 0;
+        right: -75px;
+        background-color: white;
+        border-radius: 100%;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inner__text {
+        width: 130px;
+    }
+    
+    .top-images__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+    }
+    
+    .top-images__price {
+        font-family: 'Lato', sans-serif;
+        font-size: 54px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .top-images__date {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        text-align: right;
+    }
