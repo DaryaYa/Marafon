@@ -136,8 +136,6 @@
         margin-top: 50px;
     }
     
-    .top-images {}
-    
     .top-images__box {
         position: relative;
     }
@@ -176,4 +174,114 @@
         font-family: 'Lato', sans-serif;
         font-size: 14px;
         text-align: right;
+    }
+
+    .price {
+        padding: 150px 0 180px;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        color: #2f3f54;
+    }
+    .title span {
+        color: #2575e7;
+    }
+    .price__descr {
+        text-align: center;
+        max-width: 595px;
+        margin: 35px auto 125px;
+    }
+    .price__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    .price-item {
+        min-width: 360px;
+        box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+        padding: 0 50px;
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .price-item__number {
+        width: 256px;
+        height: 465px;
+        border-radius: 136px;
+        color: white;
+        background-color: #2575e7;
+        position: absolute;
+        top: -370px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .price-item__number span {
+        font-size: 16px;
+    }
+    .price-item__images {
+        padding-top: 120px;
+        text-align: center;
+        margin-bottom: 30px;
+        min-height: 251px;
+    }
+    .price-item__title {
+        font-family: 'Roboto', sans-serif;
+        color: #2575e7;
+        margin-bottom: 25px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: bold;
+
+    }
+    .price-item__text {
+        margin-bottom: 50px;
+        font-family: 'Lato', sans-serif;
+
+    }
+    .price-item__list {
+        margin-bottom: 75px;
+        list-style: none;
+    }
+    .price-item__list li {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin-bottom: 12px;
+        padding-left: 36px;
+        line-height: 24px;
+        position: relative;
+
+    }
+
+    .price-item__list li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(../images/price-icon.png);
+        width: 15px;
+        height: 11px;
+    }
+    .price-item__btn {
+        font-size: 17px;
+        color: white;
+        background-color: #2575e7;
+        font-weight: 700;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 20px 10px;
+
     }
